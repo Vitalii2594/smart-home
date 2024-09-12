@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./src/css/base.css);
+@import url(./src//css/header.css);
+
+
+@import url(./src//css/hero.css);
+
+@import url(./src//css/about.css);
+@import url(./src//css/comfort-services.css);
+@import url(./src//css//services.css);
+@import url(./src//css/contacts.css);
+
+@import url(./src//css/footer.css);
+
+@import url(./src//css/media.css);
+
+
+
+
+/* ------------ TABS ------------ */
+.tabs__nav {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.tabs__nav button {
+  border-radius: 50px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    -180deg,
+    rgb(142, 98, 255) 0%,
+    rgb(60, 0, 150) 96%
+  );
+  background-position: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  box-shadow: none;
+  width: 100%;
+  max-width: 300px;
+  padding: 0px 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+
+  text-decoration: none !important;
+  background-repeat: no-repeat !important;
+}
+
+.tabs__nav button.active {
+  background-color: #2e80b6;
+}
+
+.tabs__item {
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tabs__item img {
+  margin-bottom: 15px;
+  max-width: 100%;
+  max-height: 360px;
+}
+
+.tabs__item h4 {
+  margin-bottom: 15px;
+  font-size: 31px;
+  line-height: 1;
+  color: #676770;
+}
+.tabs__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15;
+}
+.tabs__text {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+/* ------------ HOW IT WORKS SECTION ------------ */
+
+.how-it-works {
+  padding: 50px 20px;
+  background-color: #383838;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.step:hover {
+  background-color: #f4f4f4d3;
+}
+.step {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  height: 100%;
+}
+
+.title-how {
+  color: white;
+}
+
+/* ------------ CALL TO ACTION (CTA) ------------ */
+
+.cta {
+  padding: 50px 20px;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+}
+
+.cta .btn {
+  margin: 10px;
+}
+
+/* ------------ FOOTER ------------ */
+
+/* Footer end*/

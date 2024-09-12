@@ -1,0 +1,152 @@
+.smart-home {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.title-sm {
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #676770;
+  padding-bottom: 40px;
+}
+
+.smart-home p {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Układ siatki: 3 kolumny na większych ekranach */
+.services {
+
+   gap: 20px;
+  
+}
+
+/* Styl dla każdej karty */
+.service {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(145, 143, 143, 0.37);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styl ikon */
+.service i {
+  font-size: 40px;
+  color: #4d5ae5; /* Kolor ikony */
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+/* Styl tytułów */
+.service h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styl tekstu */
+.service h3 {
+  font-size: 18px;
+  color: color #333;
+  padding-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.6;
+  
+}
+
+/* Efekt hover dla aktywnej karty */
+.service:hover i,
+.service:hover h2 {
+  color: #333aa1; /* Intensywniejszy odcień niebieskiego dla hover */
+}
+
+/* Styl dla aktywnej karty */
+.service.active {
+  background-color: #4d5ae5;
+  color: white;
+}
+
+.service.active i,
+.service.active h2 {
+  color: white;
+}
+
+/* SMART_CONTROL_SECTION */
+
+/* Stylizacja sekcji głównej */
+.smart-control {
+ background-color: #192024;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.title-sm-ctr{
+  font-size: 24px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.smart-control p {
+    text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Układ siatki dla usług */
+
+/* Styl dla każdej karty usługi */
+.service-box {
+  background: linear-gradient(145deg, #f9f9f9, #f0f0f0);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  color: #333;
+   margin-bottom: 30px;
+  
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Ikony */
+.icon {
+  font-size: 48px;
+  color: #4d5ae5;
+  margin-bottom: 20px;
+}
+
+/* Stylizacja nagłówków */
+.service-box h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Stylizacja tekstu opisu */
+.service-box p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}

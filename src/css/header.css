@@ -1,0 +1,122 @@
+.header {
+  background-color: #333; /* Kolor tła nagłówka */
+  color: #fff; /* Kolor tekstu */
+  position: fixed; /* Nagłówek jest przyklejony do góry */
+  top: 0;
+  left: 0;
+  width: 100%; /* Nagłówek zajmuje całą szerokość */
+  z-index: 1000; /* Nagłówek jest zawsze nad innymi elementami */
+  padding: 10px 0; /* Odstęp wewnętrzny od góry i dołu */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__pg {
+  display: flex; /* Użycie flexboxa do wyrównania elementów */
+  justify-content: space-between; /* Elementy są rozstawione między sobą */
+  align-items: center; /* Wyrównanie elementów do środka w osi pionowej */
+  padding: 0 16px; /* Odstęp wewnętrzny po bokach */
+  width: 100%;
+  
+  margin: 0 auto; /* Wycentrowanie kontenera */
+  
+}
+
+.logo a {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgb(105, 185, 255);
+}
+
+.nav {
+  display: none; /* Ukrycie nawigacji na małych i średnich ekranach */
+}
+
+.contact-icons {
+  display: none; /* Ukrycie ikonek kontaktowych na małych i średnich ekranach */
+}
+
+/* Styl dla burger menu */
+.burger {
+  display: flex; /* Wyświetlenie burger menu jako flex */
+  flex-direction: column; /* Pionowe ułożenie pasków burgera */
+  gap: 5px; /* Odstęp pomiędzy paskami */
+  cursor: pointer; /* Ikona zmienia się w kursor */
+}
+
+.burger span {
+  width: 30px; /* Szerokość pasków burgera */
+  height: 3px; /* Wysokość pasków burgera */
+  background-color: white; /* Kolor pasków */
+  display: block; /* Każdy pasek jest blokiem */
+}
+
+/* Modalne menu */
+.burger-menu-overlay {
+  display: none; /* Ukrycie modalnego menu domyślnie */
+  position: fixed; /* Modalne menu jest przyklejone do ekranu */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Ciemne tło z przezroczystością */
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Modal jest nad wszystkimi elementami */
+}
+
+.burger-menu {
+  background-color: #333; /* Kolor tła modalnego menu */
+  padding: 30px;
+  text-align: center;
+  width: 90%; /* Szerokość modalnego menu */
+  max-width: 600px; /* Maksymalna szerokość modalnego okna */
+  border-radius: 8px; /* Zaokrąglenie krawędzi */
+}
+
+.burger-menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.burger-menu-header .logo a {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: rgb(105, 185, 255);
+}
+
+.burger-menu-header .close-btn {
+  cursor: pointer; /* Ikona zamknięcia zmienia się w kursor */
+  color: white;
+  font-size: 24px; /* Wielkość ikony zamknięcia */
+}
+
+.burger-menu ul {
+  list-style: none; /* Usunięcie kropek z listy */
+  margin-bottom: 20px;
+}
+
+.burger-menu ul li {
+  margin-bottom: 15px;
+}
+
+.burger-menu ul li a {
+  color: white; /* Kolor tekstu w modalnym menu */
+  text-decoration: none; /* Usunięcie podkreślenia */
+  font-size: 18px; /* Wielkość czcionki */
+}
+
+.burger-menu .contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Odstępy pomiędzy ikonami */
+}
