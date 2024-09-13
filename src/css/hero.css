@@ -74,12 +74,12 @@ margin-bottom: 40px;
 
 .welcome__link:hover {
   color: rgb(255, 255, 255);
-  background: rgb(60, 0, 150);
+  background: #007bff;
   box-shadow: none;
 }
 
 .welcome__link:active {
   color: rgb(255, 255, 255);
-  background: rgb(60, 0, 150);
+  background: #007bff;
   box-shadow: none;
 }

@@ -43,7 +43,7 @@
 /* Styl ikon */
 .service i {
   font-size: 40px;
-  color: #4d5ae5; /* Kolor ikony */
+  color: #007bff; /* Kolor ikony */
   margin-bottom: 15px;
   transition: color 0.3s ease;
 }
@@ -133,7 +133,7 @@
 /* Ikony */
 .icon {
   font-size: 48px;
-  color: #4d5ae5;
+  color: #007bff;
   margin-bottom: 20px;
 }
 

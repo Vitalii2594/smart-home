@@ -32,10 +32,7 @@
   border-radius: 50px;
   white-space: nowrap;
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(
-    -180deg,
-    rgb(142, 98, 255) 0%,
-    rgb(60, 0, 150) 96%
+  background-image: linear-gradient(#007bff
   );
   background-position: initial;
   background-size: initial;
@@ -62,7 +59,7 @@
 }
 
 .tabs__nav button.active {
-  background-color: #2e80b6;
+  background-color: #007bff;
 }
 
 .tabs__item {

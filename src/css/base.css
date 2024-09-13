@@ -9,14 +9,14 @@ body {
 :root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --primary-brand: #4d5ae5;
+  --primary-brand: #007bff;
   --dark: #2e2f42;
   --success: #31d0aa;
   --text: #434455;
   --subtle-text: #8e8f99;
   --accent: #e7e9fc;
   --light: #f4f4fd;
-  --navigation-active: #404bbf;
+  --navigation-active: #007bff;
   --white-text-color: #ffffff;
   --tra-tim-fun: cubic-bezier(0.4, 0, 0.2, 1);
   --tra-dur: 250ms;
